@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline; /* Makes navbar items inline (horizontal) */
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: rgb(212, 42, 42);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #00bcd4;
+}
+
+/* Headings */
+.main-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Sections */
+.section {
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+}
